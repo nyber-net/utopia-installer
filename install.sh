@@ -35,7 +35,6 @@ fi
 echo ""
 echo "Installing dependencies..."
 $SUDO apt-get update -qq
-$SUDO apt-get install -y libx11-xcb1 libgl1-mesa-glx libpulse-mainloop-glib0 libfontconfig1
 
 echo ""
 echo "Downloading utopia-amd64.deb ($VERSION)..."
